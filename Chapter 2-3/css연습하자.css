@@ -1,0 +1,19 @@
+.box{
+    
+    border :50px solid red;
+    width : 200px ;
+    height : 200px ;
+    padding : 50px ;
+    margin-top : 20px
+
+}
+
+.green{
+    border :50px solid #1abc9c ;
+    visibility:hidden;
+}
+ 
+.blue{
+    border:50px solid blue;
+    display: none;
+}

@@ -1,0 +1,29 @@
+
+.new-style{
+    color:red
+} 
+
+#new-style{
+    color:blue
+} 
+
+ol{
+    color: green;
+}
+
+li.margin-space{
+    color:burlywood
+}
+
+div .new-style{
+    color:cyan
+}
+
+
+.margin-space{
+    margin-left: 20px;
+}
+
+ul>.margin-space{
+    color: darkblue;
+}

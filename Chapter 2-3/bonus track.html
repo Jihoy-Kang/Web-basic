@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스타일 입히는 방법</title>
+    <link href="bonus track.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div>
+        <h1>p, div, span태그 사용법</h1>
+        <ul>
+            <li>div(division) : 영역을 나누는 것 / 레이아웃,계층 나누기 용</li>
+            <li>p(paragraph) : 문단, 단락 나누는 용</li>
+            <li>span(span) : 적용범위</li>
+            <li>div > p > span 순서로 하위태그만 품을 수 있음</li>
+            <li>a, span, strong은 인라인요소로 p태그 하위요소로 들어감</li>
+        </ul>
+        <h1>스타일 입히는방법</h1>
+        <ol>
+            <li class="new-style">class를 이용한 스타일 주기, 여러가지 스타일 줄수 있음</li>
+            <li id="new-style">id를 이용한 스타일 주기, 한가지 스타일만 가질 수 있음, #이용</li>
+            <li>태그에 직접적으로 스타일 주는 방법, 모든 태그에 적용 됨 </li>
+            <li>복합 선택자 : </li></ol>
+            <ul>
+                <li class="margin-space">예) p.new-style : p태그에 있는 class가 new-style인 태그만</li>
+                <li class="margin-space">예) div .new-style : div태그 아래 모든 자식들중 스타일이 new-style인 태그만 선택적용</li>
+                <li class="margin-space">예) div>.new-style : div 바로 밑에 자식들중 스타일이 new-style인 태그만 선택</li>
+            </ul>      
+    </div>
+</body>
+</html>
