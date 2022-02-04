@@ -1,0 +1,27 @@
+.mother{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mother2{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    height : 100vh;
+}
+
+.mother3{
+    border: 1px solid red;
+    display: flex;
+    height : 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.children{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}

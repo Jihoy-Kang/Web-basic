@@ -1,0 +1,46 @@
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.locate{
+    position: relative;
+    left:30px;
+    top:30px;
+}
+
+.locate2{
+    position: absolute;
+    left:30px;
+    top:30px
+}
+
+.locate2{
+    position: relative;
+    left:30px;
+    top:30px
+}
+
+.locate3{
+    position: fixed;
+    left:30px;
+    top:30px
+}
+
+static은 기본값
+absolute랑 fixed의 차이점
+absolute는 스크롤 내리면 컨텐츠가 올라가지만
+fixed는 스크롤내려도 같이 따라내려감
+sticky는 스크롤내려도 같이 따라내려감
