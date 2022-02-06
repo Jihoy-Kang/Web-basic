@@ -1,4 +1,36 @@
 .box{
-    border: 1px solid black;
-    background-color: black;
-}
+    width : 100px;
+    height: 100px;
+  }
+  
+  .red{
+    background-color: red;
+  }
+  
+  .yellow{
+    background-color: yellow;
+    align-self : center;
+  }
+  
+  .blue{
+    background-color: blue;
+    align-self : flex-end;
+  }
+  
+  .flex-box{
+    display: flex;
+    justify-content : space-around;
+  }
+  
+  .locate{
+    position:sticky;
+    left : 20px;
+    top : 30px;
+  }
+  
+  .mother{
+    border: 1px solid red;
+    height : 100vh;
+    display: flex;
+    flex-direction: column;
+  }
