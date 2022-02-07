@@ -1,0 +1,55 @@
+.border-red{
+    border: 1px solid red;
+}
+
+.first-img{
+    width:100vw;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+.card-img-top{
+    width : 100%
+}
+
+.btn-outline-success{
+    color: chocolate;
+    border-color: chocolate;
+}
+
+footer{
+    background-color: #19110b;
+}
+
+.first-line{
+    border:1px solid #392d23;
+    color: white;
+}
+
+.second-line a{
+    color:white;
+    text-decoration: none;
+}
+
+.second-line a:hover{
+    text-decoration: none;
+}
+.second-line{
+    color:white;
+    text-decoration: none;
+}
+
+.mobile-footer{
+    border-top: 1px solid #392d23;
+    color: white;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 300;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    display: none;
+}
